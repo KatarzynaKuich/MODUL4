@@ -16,3 +16,5 @@ if palindrom(s)==False:
   print("\nSłowo",s,"nie jest palindormem.")
 else:
   print("\nSłowo",s,"jest palindormem.")
+
+print("end")
