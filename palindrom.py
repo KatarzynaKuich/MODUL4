@@ -9,12 +9,13 @@ def palindrom(slowo):
        return False
 
 print("\nPalindromy")
-print("\nPODAJ słowo:")
+print("\nPODAJ słowo lub zdanie:")
 
-s =(input().upper())
+z =(input())
+s=''.join(e for e in z if e.isalnum()).upper()
+
 if palindrom(s)==False:
-  print("\nSłowo",s,"nie jest palindormem.")
+  print("\nSłowo/zdanie:",s,"nie jest palindormem.")
 else:
-  print("\nSłowo",s,"jest palindormem.")
+  print("\nSłowo/zdanie:",s,"jest palindormem.")
 
-print("end")
